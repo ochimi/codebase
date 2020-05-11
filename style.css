@@ -1,0 +1,67 @@
+
+header{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 1110px;
+  z-index: 10;  
+}
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.carousel-item {
+    height: 600px;
+    position: relative;
+  }
+  
+  .carousel-item h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 15px #000;
+    color: #ffffff;
+    font-family: fantasy;
+ }
+  
+  .carousel-image-1 {
+    background-image: url('http://placehold.jp/3d4070/ffffff/150x150.png?text=img/image_demo.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  
+  .carousel-image-2 {
+    background-image: url('http://placehold.jp/3d4070/ffffff/150x150.png?text=img/image2.jpg');
+    background-size: cover;
+    background-position: center top;
+    
+        height: 216px;
+    
+  }
+  
+  .carousel-image-3 {
+    background-image: url('http://placehold.jp/3d4070/ffffff/150x150.png?text=img/image3.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  
+
+
+h2,p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+
